@@ -1,2 +1,4 @@
 using git in 2025.
 an project underlining Node.js
+
+#to push on master branch use this command: git push -u source master
