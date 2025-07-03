@@ -2,3 +2,7 @@ using git in 2025.
 an project underlining Node.js
 
 #to push on master branch use this command: git push -u source master
+
+chrome devtools:
+    node inspect app.js add --title="title" --body="body"(on console)
+    chrome://inspect(on web)
