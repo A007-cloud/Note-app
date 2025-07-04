@@ -1,8 +1,5 @@
 const fs = require("fs");
 const chalk = require("chalk");
-const getNotes = function () {
-  return "your Notes...";
-};
 
 const addNotes = function (title, body) {
   const notes = loadNotes();
@@ -73,7 +70,6 @@ const loadNotes = function () {
 };
 
 module.exports = {
-  getNotes,
   addNotes,
   removeNotes,
   listNotes,

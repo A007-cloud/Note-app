@@ -8,7 +8,7 @@ const argv = yargs(hideBin(process.argv))
   .version("1.2.3")
   .command({
     command: "add",
-    description: "Add a new note!",
+    describe: "Add a new note!",
     builder: {
       title: {
         describe: "Note title",
@@ -27,7 +27,7 @@ const argv = yargs(hideBin(process.argv))
   })
   .command({
     command: "remove",
-    description: "Remove a note!",
+    describe: "Remove a note!",
     builder: {
       title: {
         describe: "Note title",
@@ -41,14 +41,14 @@ const argv = yargs(hideBin(process.argv))
   })
   .command({
     command: "list",
-    description: "All notes listed.",
+    describe: "All notes listed.",
     handler() {
       notes.listNotes();
     },
   })
   .command({
     command: "read",
-    description: "showing single note.",
+    describe: "showing single note.",
     builder: {
       title: {
         describe: "Note title",
